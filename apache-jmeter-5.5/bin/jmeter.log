@@ -1,0 +1,422 @@
+2024-03-29 11:44:44,110 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2024-03-29 11:44:44,145 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2024-03-29 11:44:44,153 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2024-03-29 11:44:44,157 INFO o.a.j.JMeter: Copyright (c) 1998-2022 The Apache Software Foundation
+2024-03-29 11:44:44,157 INFO o.a.j.JMeter: Version 5.5
+2024-03-29 11:44:44,157 INFO o.a.j.JMeter: java.version=21.0.2
+2024-03-29 11:44:44,157 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2024-03-29 11:44:44,157 INFO o.a.j.JMeter: os.name=Windows 11
+2024-03-29 11:44:44,157 INFO o.a.j.JMeter: os.arch=amd64
+2024-03-29 11:44:44,157 INFO o.a.j.JMeter: os.version=10.0
+2024-03-29 11:44:44,157 INFO o.a.j.JMeter: file.encoding=UTF-8
+2024-03-29 11:44:44,157 INFO o.a.j.JMeter: java.awt.headless=null
+2024-03-29 11:44:44,157 INFO o.a.j.JMeter: Max memory     =1073741824
+2024-03-29 11:44:44,157 INFO o.a.j.JMeter: Available Processors =12
+2024-03-29 11:44:44,157 INFO o.a.j.JMeter: Default Locale=English (EN)
+2024-03-29 11:44:44,157 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2024-03-29 11:44:44,157 INFO o.a.j.JMeter: JMeterHome=D:\jmeter\apache-jmeter-5.5
+2024-03-29 11:44:44,157 INFO o.a.j.JMeter: user.dir  =D:\jmeter\apache-jmeter-5.5\bin
+2024-03-29 11:44:44,157 INFO o.a.j.JMeter: PWD       =D:\jmeter\apache-jmeter-5.5\bin
+2024-03-29 11:44:44,157 INFO o.a.j.JMeter: IP: 192.168.128.185 Name: DESKTOP-382DRSQ FullName: DESKTOP-382DRSQ
+2024-03-29 11:44:44,189 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2024-03-29 11:44:44,334 INFO o.a.j.JMeterGuiLauncher: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
+2024-03-29 11:44:46,027 INFO o.j.r.JARSourceHTTP: Requesting https://jmeter-plugins.org/repo/?installID=windows_11-af76b0c575c27e7a6f32d0a1b76a632c-gui
+2024-03-29 11:44:47,564 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-03-29 11:44:47,564 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-03-29 11:44:47,564 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-03-29 11:44:47,564 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-03-29 11:44:47,564 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2024-03-29 11:44:47,564 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2024-03-29 11:44:49,691 INFO o.j.r.PluginManager: Plugins Status: [bzm-parallel=0.12, jpgc-plugins-manager=1.10, jmeter-core=5.5, jmeter-ftp=5.5, jmeter-http=5.5, jmeter-jdbc=5.5, jmeter-jms=5.5, jmeter-junit=5.5, jmeter-java=5.5, jmeter-ldap=5.5, jmeter-mail=5.5, jmeter-mongodb=5.5, jmeter-native=5.5, jmeter-tcp=5.5, jmeter-components=5.5]
+2024-03-29 11:45:03,119 INFO o.a.j.s.FileServer: Default base='D:\jmeter\apache-jmeter-5.5\bin'
+2024-03-29 11:45:03,123 INFO o.a.j.g.a.Load: Loading file: D:\jmeter\apache-jmeter-5.5\bin\examples\icustoms_1.jmx
+2024-03-29 11:45:03,123 INFO o.a.j.s.FileServer: Set new base='D:\jmeter\apache-jmeter-5.5\bin\examples'
+2024-03-29 11:45:03,311 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2024-03-29 11:45:03,343 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2024-03-29 11:45:03,343 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2024-03-29 11:45:03,358 INFO o.a.j.s.SaveService: Loading file: D:\jmeter\apache-jmeter-5.5\bin\examples\icustoms_1.jmx
+2024-03-29 11:45:03,452 WARN o.j.r.p.TestPlanAnalyzer: Cannot parse file: D:\jmeter\apache-jmeter-5.5\bin\examples\icustoms_1.jmx
+org.xml.sax.SAXParseException: Character reference "&#x0" is an invalid XML character.
+	at org.apache.xerces.parsers.DOMParser.parse(Unknown Source) ~[xercesImpl-2.12.2.jar:?]
+	at org.apache.xerces.jaxp.DocumentBuilderImpl.parse(Unknown Source) ~[xercesImpl-2.12.2.jar:?]
+	at javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:122) ~[?:?]
+	at org.jmeterplugins.repository.plugins.TestPlanAnalyzer.getNodeListWithClassNames(TestPlanAnalyzer.java:130) ~[jmeter-plugins-manager-1.10.jar:?]
+	at org.jmeterplugins.repository.plugins.TestPlanAnalyzer.analyze(TestPlanAnalyzer.java:37) ~[jmeter-plugins-manager-1.10.jar:?]
+	at org.jmeterplugins.repository.plugins.PluginSuggester.analyzeTestPlan(PluginSuggester.java:51) ~[jmeter-plugins-manager-1.10.jar:?]
+	at org.jmeterplugins.repository.plugins.PluginSuggester.findPluginsToInstall(PluginSuggester.java:44) ~[jmeter-plugins-manager-1.10.jar:?]
+	at org.jmeterplugins.repository.plugins.PluginSuggester.checkAndSuggest(PluginSuggester.java:28) ~[jmeter-plugins-manager-1.10.jar:?]
+	at org.jmeterplugins.repository.logging.LoggerAppender.append(LoggerAppender.java:33) ~[jmeter-plugins-manager-1.10.jar:?]
+	at org.apache.logging.log4j.core.config.AppenderControl.tryCallAppender(AppenderControl.java:161) ~[log4j-core-2.17.2.jar:2.17.2]
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppender0(AppenderControl.java:134) ~[log4j-core-2.17.2.jar:2.17.2]
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppenderPreventRecursion(AppenderControl.java:125) ~[log4j-core-2.17.2.jar:2.17.2]
+	at org.apache.logging.log4j.core.config.AppenderControl.callAppender(AppenderControl.java:89) ~[log4j-core-2.17.2.jar:2.17.2]
+	at org.apache.logging.log4j.core.config.LoggerConfig.callAppenders(LoggerConfig.java:675) ~[log4j-core-2.17.2.jar:2.17.2]
+	at org.apache.logging.log4j.core.config.LoggerConfig.processLogEvent(LoggerConfig.java:633) ~[log4j-core-2.17.2.jar:2.17.2]
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:616) ~[log4j-core-2.17.2.jar:2.17.2]
+	at org.apache.logging.log4j.core.config.LoggerConfig.log(LoggerConfig.java:552) ~[log4j-core-2.17.2.jar:2.17.2]
+	at org.apache.logging.log4j.core.config.AwaitCompletionReliabilityStrategy.log(AwaitCompletionReliabilityStrategy.java:82) ~[log4j-core-2.17.2.jar:2.17.2]
+	at org.apache.logging.log4j.core.Logger.log(Logger.java:161) ~[log4j-core-2.17.2.jar:2.17.2]
+	at org.apache.logging.log4j.spi.AbstractLogger.tryLogMessage(AbstractLogger.java:2205) ~[log4j-api-2.17.2.jar:2.17.2]
+	at org.apache.logging.log4j.spi.AbstractLogger.logMessageTrackRecursion(AbstractLogger.java:2159) ~[log4j-api-2.17.2.jar:2.17.2]
+	at org.apache.logging.log4j.spi.AbstractLogger.logMessageSafely(AbstractLogger.java:2142) ~[log4j-api-2.17.2.jar:2.17.2]
+	at org.apache.logging.log4j.spi.AbstractLogger.logMessage(AbstractLogger.java:2034) ~[log4j-api-2.17.2.jar:2.17.2]
+	at org.apache.logging.log4j.spi.AbstractLogger.logIfEnabled(AbstractLogger.java:1899) ~[log4j-api-2.17.2.jar:2.17.2]
+	at org.apache.logging.slf4j.Log4jLogger.info(Log4jLogger.java:184) ~[log4j-slf4j-impl-2.17.2.jar:2.17.2]
+	at org.apache.jmeter.save.SaveService.loadTree(SaveService.java:425) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.gui.action.Load.loadProjectFile(Load.java:129) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.gui.action.Load.loadProjectFile(Load.java:101) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.gui.action.LoadRecentProject.doActionAfterCheck(LoadRecentProject.java:71) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.gui.action.AbstractActionWithNoRunningTest.doAction(AbstractActionWithNoRunningTest.java:44) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.gui.action.ActionRouter.performAction(ActionRouter.java:87) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.gui.action.ActionRouter.lambda$actionPerformed$0(ActionRouter.java:69) ~[ApacheJMeter_core.jar:5.5]
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318) ~[?:?]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:720) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:714) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:400) ~[?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87) ~[?:?]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:742) ~[?:?]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) ~[?:?]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:90) ~[?:?]
+2024-03-29 11:45:03,499 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2024-03-29 11:45:03,499 INFO o.a.j.p.h.c.CacheManager: Will only cache the following methods: [GET]
+2024-03-29 11:45:03,688 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
+2024-03-29 11:45:03,688 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file D:\jmeter\apache-jmeter-5.5\bin\proxyserver.jks
+2024-03-29 11:45:03,703 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2024-03-29 11:45:03,703 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2024-03-29 11:45:03,703 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2024-03-29 11:45:03,703 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2024-03-29 11:45:04,678 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2024-03-29 11:45:04,820 INFO o.a.j.s.FileServer: Set new base='D:\jmeter\apache-jmeter-5.5\bin\examples'
+2024-03-29 11:45:10,872 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2024-03-29 11:45:10,872 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2024-03-29 11:45:10,998 INFO o.a.j.p.h.p.ProxyControl: Valid alias found for :root_ca:
+2024-03-29 11:45:10,998 INFO o.a.j.p.h.p.ProxyControl: Valid alias found for :intermediate_ca:
+2024-03-29 11:45:11,014 INFO o.a.j.p.h.p.Daemon: Creating Daemon Socket on port: 8181
+2024-03-29 11:45:11,014 INFO o.a.j.p.h.p.Daemon: Test Script Recorder up and running!
+2024-03-29 11:45:11,137 INFO o.a.j.p.h.p.Proxy: Proxy will remove the headers: If-Modified-Since,If-None-Match,Host
+2024-03-29 11:45:11,259 INFO o.a.j.p.h.p.Proxy: [53566]  KeyStore for SSL loaded OK and put host 'www.googleapis.com' in map with key (www.googleapis.com)
+2024-03-29 11:45:11,305 WARN o.a.j.p.h.p.Proxy: [53566]  Problem with SSL certificate for url  for 'www.googleapis.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2024-03-29 11:45:11,308 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-03-29 11:45:12,329 INFO o.a.j.p.h.p.Proxy: [53567]  KeyStore for SSL loaded OK and put host 'mtalk.google.com' in map with key (mtalk.google.com)
+2024-03-29 11:45:12,398 WARN o.a.j.p.h.p.Proxy: [53567]  Problem with SSL certificate for url  for 'mtalk.google.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2024-03-29 11:45:18,901 INFO o.a.j.p.h.p.Proxy: [53568]  KeyStore for SSL loaded OK and put host 'www.google.com' in map with key (www.google.com)
+2024-03-29 11:45:18,953 WARN o.a.j.p.h.p.Proxy: [53569]  Problem with SSL certificate for url  for 'www.google.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2024-03-29 11:45:18,953 WARN o.a.j.p.h.p.Proxy: [53568]  Problem with SSL certificate for url  for 'www.google.com'? Ensure browser is set to accept the JMeter proxy cert: An established connection was aborted by the software in your host machine
+2024-03-29 11:45:26,250 INFO o.a.j.p.h.p.Proxy: [53570]  KeyStore for SSL loaded OK and put host 'accounts.google.com' in map with key (accounts.google.com)
+2024-03-29 11:45:26,266 WARN o.a.j.p.h.p.Proxy: [53570]  Problem with SSL certificate for url  for 'accounts.google.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2024-03-29 11:45:26,677 WARN o.a.j.p.h.p.Proxy: [53571]  Problem with SSL certificate for url  for 'www.googleapis.com'? Ensure browser is set to accept the JMeter proxy cert: An established connection was aborted by the software in your host machine
+2024-03-29 11:45:26,906 WARN o.a.j.p.h.p.Proxy: [53572]  Problem with SSL certificate for url  for 'www.google.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2024-03-29 11:45:27,046 INFO o.a.j.p.h.p.Proxy: [53573]  KeyStore for SSL loaded OK and put host 'safebrowsing.google.com' in map with key (safebrowsing.google.com)
+2024-03-29 11:45:27,071 WARN o.a.j.p.h.p.Proxy: [53573]  Problem with SSL certificate for url  for 'safebrowsing.google.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2024-03-29 11:45:27,187 INFO o.a.j.p.h.p.Proxy: [53574]  KeyStore for SSL loaded OK and put host 'app-tdr.customscloud.co' in map with key (app-tdr.customscloud.co)
+2024-03-29 11:45:27,205 WARN o.a.j.p.h.p.Proxy: [53574]  Problem with SSL certificate for url  for 'app-tdr.customscloud.co'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2024-03-29 11:45:27,326 INFO o.a.j.p.h.p.Proxy: [53575]  KeyStore for SSL loaded OK and put host 'optimizationguide-pa.googleapis.com' in map with key (optimizationguide-pa.googleapis.com)
+2024-03-29 11:45:27,338 WARN o.a.j.p.h.p.Proxy: [53576]  Problem with SSL certificate for url  for 'app-tdr.customscloud.co'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2024-03-29 11:45:27,338 WARN o.a.j.p.h.p.Proxy: [53577]  Problem with SSL certificate for url  for 'safebrowsing.google.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2024-03-29 11:45:27,345 WARN o.a.j.p.h.p.Proxy: [53575]  Problem with SSL certificate for url  for 'optimizationguide-pa.googleapis.com'? Ensure browser is set to accept the JMeter proxy cert: An established connection was aborted by the software in your host machine
+2024-03-29 11:45:27,354 WARN o.a.j.p.h.p.Proxy: [53578]  Problem with SSL certificate for url  for 'app-tdr.customscloud.co'? Ensure browser is set to accept the JMeter proxy cert: An established connection was aborted by the software in your host machine
+2024-03-29 11:45:27,373 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = DESKTOP-382DRSQ
+2024-03-29 11:45:27,379 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2024-03-29 11:45:27,593 INFO o.a.j.p.h.p.ProxyControl: Add sample /generate_204-1 into controller 
+2024-03-29 11:45:31,007 WARN o.a.j.p.h.p.Proxy: [53581]  Problem with SSL certificate for url  for 'www.googleapis.com'? Ensure browser is set to accept the JMeter proxy cert: An established connection was aborted by the software in your host machine
+2024-03-29 11:45:35,721 WARN o.a.j.p.h.p.Proxy: [53582]  Problem with SSL certificate for url  for 'www.googleapis.com'? Ensure browser is set to accept the JMeter proxy cert: An established connection was aborted by the software in your host machine
+2024-03-29 11:45:40,938 INFO o.a.j.p.h.p.Proxy: [53583]  KeyStore for SSL loaded OK and put host 'update.googleapis.com' in map with key (update.googleapis.com)
+2024-03-29 11:45:40,946 WARN o.a.j.p.h.p.Proxy: [53583]  Problem with SSL certificate for url  for 'update.googleapis.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2024-03-29 11:45:41,450 INFO o.a.j.p.h.p.ProxyControl: Add sample /service/update2/json?cup2key=14:lniSVavX2QVqYV35hGM8SAYezNU9zSdrvLdOcXJjcfQ&cup2hreq=2a75295e37d94f38a604a74d31ce9a1e53e3d90aedbdf6464c48dce1ceabb54e-2 into controller 
+2024-03-29 11:45:44,088 WARN o.a.j.p.h.p.Proxy: [53586]  Problem with SSL certificate for url  for 'www.googleapis.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2024-03-29 11:45:46,996 WARN o.a.j.p.h.p.Proxy: [53587]  Problem with SSL certificate for url  for 'www.google.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2024-03-29 11:45:55,060 INFO o.a.j.p.h.p.Daemon: HTTP(S) Test Script Recorder stopped
+2024-03-29 11:46:47,864 INFO o.a.j.p.h.p.ProxyControl: Valid alias found for :root_ca:
+2024-03-29 11:46:47,864 INFO o.a.j.p.h.p.ProxyControl: Valid alias found for :intermediate_ca:
+2024-03-29 11:46:47,864 INFO o.a.j.p.h.p.Daemon: Creating Daemon Socket on port: 8181
+2024-03-29 11:46:47,864 INFO o.a.j.p.h.p.Daemon: Test Script Recorder up and running!
+2024-03-29 11:46:47,913 INFO o.a.j.p.h.p.ProxyControl: [53679]  Creating entry config.edge.skype.com in D:\jmeter\apache-jmeter-5.5\bin\proxyserver.jks
+2024-03-29 11:46:48,053 WARN o.a.j.p.h.p.Proxy: [53675]  Problem with SSL certificate for url  for 'www.google.com'? Ensure browser is set to accept the JMeter proxy cert: An established connection was aborted by the software in your host machine
+2024-03-29 11:46:51,520 INFO o.a.j.p.h.p.Proxy: [53679]  KeyStore for SSL loaded OK and put host 'config.edge.skype.com' in map with key (config.edge.skype.com)
+2024-03-29 11:46:51,585 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2024-03-29 11:46:51,588 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2024-03-29 11:46:51,588 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2024-03-29 11:46:51,637 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2024-03-29 11:46:51,637 INFO o.a.j.u.SSLManager: KeyStore created OK
+2024-03-29 11:46:51,637 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2024-03-29 11:46:51,764 INFO o.a.j.p.h.p.ProxyControl: Add sample /config/v1/Edge/123.0.2420.65-3 into controller 
+2024-03-29 11:46:52,026 WARN o.a.j.p.h.p.Proxy: [53683]  Problem with SSL certificate for url  for 'www.google.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2024-03-29 11:46:52,029 WARN o.a.j.p.h.p.Proxy: [53682]  Problem with SSL certificate for url  for 'www.google.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2024-03-29 11:46:56,012 WARN o.a.j.p.h.p.Proxy: [53684]  Problem with SSL certificate for url  for 'optimizationguide-pa.googleapis.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2024-03-29 11:46:56,095 INFO o.a.j.p.h.p.Proxy: [53686]  KeyStore for SSL loaded OK and put host 'fonts.googleapis.com' in map with key (fonts.googleapis.com)
+2024-03-29 11:46:56,105 WARN o.a.j.p.h.p.Proxy: [53688]  Problem with SSL certificate for url  for 'safebrowsing.google.com'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2024-03-29 11:46:56,188 INFO o.a.j.p.h.p.Proxy: [53687]  KeyStore for SSL loaded OK and put host 'cdnjs.cloudflare.com' in map with key (cdnjs.cloudflare.com)
+2024-03-29 11:46:56,194 WARN o.a.j.p.h.p.Proxy: [53685]  Problem with SSL certificate for url  for 'app-tdr.customscloud.co'? Ensure browser is set to accept the JMeter proxy cert: Received fatal alert: certificate_unknown
+2024-03-29 11:46:56,318 INFO o.a.j.p.h.p.ProxyControl: Add sample /generate_204-4 into controller 
+2024-03-29 11:46:58,639 WARN o.a.j.p.h.p.Proxy: [53687]  Empty response to http over SSL. Probably waiting for user to authorize the certificate for cdnjs.cloudflare.com:443
+2024-03-29 11:46:58,639 WARN o.a.j.p.h.p.Proxy: [53686]  Empty response to http over SSL. Probably waiting for user to authorize the certificate for fonts.googleapis.com:443
+2024-03-29 11:47:00,896 INFO o.a.j.p.h.p.Proxy: [53691]  KeyStore for SSL loaded OK and put host 'clientservices.googleapis.com' in map with key (clientservices.googleapis.com)
+2024-03-29 11:47:01,489 INFO o.a.j.p.h.p.ProxyControl: Add sample /chrome-variations/seed-5 into controller 
+2024-03-29 11:47:02,518 INFO o.a.j.p.h.p.ProxyControl: Add sample /complete/search-7 into controller 
+2024-03-29 11:47:02,527 INFO o.a.j.p.h.p.ProxyControl: Add sample /ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard-6 into controller 
+2024-03-29 11:47:02,731 INFO o.a.j.p.h.p.ProxyControl: Add sample /oauth2/v4/token-8 into controller 
+2024-03-29 11:47:02,740 INFO o.a.j.p.h.p.ProxyControl: Add sample /async/newtab_promos-10 into controller 
+2024-03-29 11:47:02,740 INFO o.a.j.p.h.p.ProxyControl: Add sample /oauth2/v4/token-12 into controller 
+2024-03-29 11:47:02,750 INFO o.a.j.p.h.p.ProxyControl: Add sample /async/ddljson-11 into controller 
+2024-03-29 11:47:02,760 INFO o.a.j.p.h.p.ProxyControl: Add sample /async/ddllog-13 into controller 
+2024-03-29 11:47:02,765 INFO o.a.j.p.h.p.ProxyControl: Add sample /async/newtab_ogb-9 into controller 
+2024-03-29 11:47:03,059 INFO o.a.j.p.h.p.ProxyControl: [53711]  Creating entry accounts.doubleclick.net in D:\jmeter\apache-jmeter-5.5\bin\proxyserver.jks
+2024-03-29 11:47:03,147 INFO o.a.j.p.h.p.ProxyControl: Add sample /GetCheckConnectionInfo-14 into controller 
+2024-03-29 11:47:05,220 INFO o.a.j.p.h.p.ProxyControl: Add sample /v1:GetHints?-15 into controller 
+2024-03-29 11:47:05,425 INFO o.a.j.p.h.p.ProxyControl: Add sample /safebrowsing/clientreport/realtime-16 into controller 
+2024-03-29 11:47:05,690 INFO o.a.j.p.h.p.Proxy: [53719]  KeyStore for SSL loaded OK and put host 'm.google.com' in map with key (m.google.com)
+2024-03-29 11:47:05,722 WARN o.a.j.p.h.p.Proxy: [53721]  Problem with SSL certificate for url  for 'm.google.com'? Ensure browser is set to accept the JMeter proxy cert: An established connection was aborted by the software in your host machine
+2024-03-29 11:47:05,733 WARN o.a.j.p.h.p.Proxy: [53724]  Problem with SSL certificate for url  for 'm.google.com'? Ensure browser is set to accept the JMeter proxy cert: Remote host terminated the handshake
+2024-03-29 11:47:05,762 ERROR o.a.j.p.h.p.Proxy: [53728]  Not implemented (probably used https)
+java.lang.IllegalArgumentException: Only ASCII supported in headers (perhaps SSL was used?)
+	at org.apache.jmeter.protocol.http.proxy.HttpRequestHdr.parse(HttpRequestHdr.java:161) ~[ApacheJMeter_http.jar:5.5]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:214) ~[ApacheJMeter_http.jar:5.5]
+2024-03-29 11:47:05,771 WARN o.a.j.p.h.p.Proxy: [53728]  Exception while writing error
+java.net.SocketException: An established connection was aborted by the software in your host machine
+	at sun.nio.ch.SocketDispatcher.write0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:54) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.tryWrite(NioSocketImpl.java:394) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:410) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:440) ~[?:?]
+	at sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:819) ~[?:?]
+	at java.net.Socket$SocketOutputStream.write(Socket.java:1195) ~[?:?]
+	at sun.security.ssl.SSLSocketOutputRecord.deliver(SSLSocketOutputRecord.java:345) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl$AppOutputStream.write(SSLSocketImpl.java:1304) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl$AppOutputStream.write(SSLSocketImpl.java:1263) ~[?:?]
+	at java.io.DataOutputStream.writeBytes(DataOutputStream.java:277) ~[?:?]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.writeErrorToClient(Proxy.java:592) ~[ApacheJMeter_http.jar:5.5]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:268) ~[ApacheJMeter_http.jar:5.5]
+2024-03-29 11:47:05,847 INFO o.a.j.p.h.p.ProxyControl: Add sample /dashboard-17 into controller 
+2024-03-29 11:47:06,263 INFO o.a.j.p.h.p.ProxyControl: Add sample /service/update2/json?cup2key=14:EtsPdIi1g7vYom12BUHUTdjwGEhUf7hPQDifekjPkVA&cup2hreq=47ae6f49185f6a00461906801f499a9482523d2fb68a34656d1c7289966ac80a-19 into controller 
+2024-03-29 11:47:06,424 INFO o.a.j.p.h.p.ProxyControl: [53742]  Creating entry accounts.youtube.com in D:\jmeter\apache-jmeter-5.5\bin\proxyserver.jks
+2024-03-29 11:47:06,464 INFO o.a.j.p.h.p.ProxyControl: Add sample /devicemanagement/data/api?retry=false&agent=Google+Chrome+123.0.6312.59(6b4b19e9dfbb93aa414dc045bd445287977d8d7a-refs%2Fbranch-heads%2F6312_46%40%7B%233%7D)&apptype=Chrome&deviceid=90fa50a5-1878-4ebb-9cca-17b42fb52ec6&devicetype=2&platform=Windows+NT%7Cx86_64%7C10.0.0&profileid=1DaZ6kIFdwxl0XQ4afflpQuE344&request=remote_commands-18 into controller 
+2024-03-29 11:47:06,586 INFO o.a.j.p.h.p.Proxy: [53711]  KeyStore for SSL loaded OK and put host 'accounts.doubleclick.net' in map with key (accounts.doubleclick.net)
+2024-03-29 11:47:06,586 WARN o.a.j.p.h.p.Proxy: [53711]  Problem with SSL certificate for url  for 'accounts.doubleclick.net'? Ensure browser is set to accept the JMeter proxy cert: An established connection was aborted by the software in your host machine
+2024-03-29 11:47:06,667 INFO o.a.j.p.h.p.ProxyControl: Add sample /devicemanagement/data/api?retry=false&agent=Google+Chrome+123.0.6312.59(6b4b19e9dfbb93aa414dc045bd445287977d8d7a-refs%2Fbranch-heads%2F6312_46%40%7B%233%7D)&apptype=Chrome&deviceid=90fa50a5-1878-4ebb-9cca-17b42fb52ec6&devicetype=2&oauth_token=&platform=Windows+NT%7Cx86_64%7C10.0.0&profileid=1DaZ6kIFdwxl0XQ4afflpQuE344&request=policy-20 into controller 
+2024-03-29 11:47:06,670 INFO o.a.j.p.h.p.ProxyControl: Add sample /chunk-vendors.8d049ebe6874cf24.js-21 into controller 
+2024-03-29 11:47:06,675 INFO o.a.j.p.h.p.ProxyControl: Add sample /app.07b5fc6f29d0a80f.js-22 into controller 
+2024-03-29 11:47:07,711 INFO o.a.j.p.h.p.ProxyControl: Add sample /v1:GetHints?-23 into controller 
+2024-03-29 11:47:07,715 INFO o.a.j.p.h.p.ProxyControl: Add sample /v1:GetHints?-30 into controller 
+2024-03-29 11:47:07,914 INFO o.a.j.p.h.p.ProxyControl: Add sample /img/icustoms_logo.2dc2a59a.svg-24 into controller 
+2024-03-29 11:47:08,122 INFO o.a.j.p.h.p.ProxyControl: Add sample /img/help-normal.ad18eb04.svg-25 into controller 
+2024-03-29 11:47:08,122 INFO o.a.j.p.h.p.ProxyControl: Add sample /img/menu-normal.94a680d0.svg-26 into controller 
+2024-03-29 11:47:08,130 INFO o.a.j.p.h.p.ProxyControl: Add sample /img/menu-arrow.396f474d.svg-29 into controller 
+2024-03-29 11:47:08,138 INFO o.a.j.p.h.p.ProxyControl: Add sample /img/TopMenuexport.de5e01fa.svg-28 into controller 
+2024-03-29 11:47:08,138 INFO o.a.j.p.h.p.ProxyControl: Add sample /img/TopMenuImport.f30c63c5.svg-27 into controller 
+2024-03-29 11:47:09,384 INFO o.a.j.p.h.p.ProxyControl: [53768]  Creating entry fonts.gstatic.com in D:\jmeter\apache-jmeter-5.5\bin\proxyserver.jks
+2024-03-29 11:47:09,469 INFO o.a.j.p.h.p.Proxy: [53742]  KeyStore for SSL loaded OK and put host 'accounts.youtube.com' in map with key (accounts.youtube.com)
+2024-03-29 11:47:09,472 WARN o.a.j.p.h.p.Proxy: [53723]  Problem with SSL certificate for url  for 'accounts.youtube.com'? Ensure browser is set to accept the JMeter proxy cert: An established connection was aborted by the software in your host machine
+2024-03-29 11:47:09,475 WARN o.a.j.p.h.p.Proxy: [53712]  Problem with SSL certificate for url  for 'accounts.youtube.com'? Ensure browser is set to accept the JMeter proxy cert: An established connection was aborted by the software in your host machine
+2024-03-29 11:47:09,475 WARN o.a.j.p.h.p.Proxy: [53722]  Problem with SSL certificate for url  for 'accounts.doubleclick.net'? Ensure browser is set to accept the JMeter proxy cert: An established connection was aborted by the software in your host machine
+2024-03-29 11:47:09,475 WARN o.a.j.p.h.p.Proxy: [53726]  Problem with SSL certificate for url  for 'accounts.youtube.com'? Ensure browser is set to accept the JMeter proxy cert: An established connection was aborted by the software in your host machine
+2024-03-29 11:47:09,475 WARN o.a.j.p.h.p.Proxy: [53725]  Problem with SSL certificate for url  for 'accounts.doubleclick.net'? Ensure browser is set to accept the JMeter proxy cert: An established connection was aborted by the software in your host machine
+2024-03-29 11:47:10,160 INFO o.a.j.p.h.p.ProxyControl: Add sample /accounts/CheckConnection-32 into controller 
+2024-03-29 11:47:10,165 INFO o.a.j.p.h.p.ProxyControl: Add sample /ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard-33 into controller 
+2024-03-29 11:47:10,167 INFO o.a.j.p.h.p.ProxyControl: Add sample /CheckConnection-31 into controller 
+2024-03-29 11:47:12,214 INFO o.a.j.p.h.p.ProxyControl: [53765]  Creating entry content-autofill.googleapis.com in D:\jmeter\apache-jmeter-5.5\bin\proxyserver.jks
+2024-03-29 11:47:12,229 INFO o.a.j.p.h.p.ProxyControl: Add sample /v1:GetModels?key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw-34 into controller 
+2024-03-29 11:47:12,294 INFO o.a.j.p.h.p.Proxy: [53768]  KeyStore for SSL loaded OK and put host 'fonts.gstatic.com' in map with key (fonts.gstatic.com)
+2024-03-29 11:47:12,640 INFO o.a.j.p.h.p.ProxyControl: Add sample /s/poppins/v21/pxiByp8kv8JHgFVrLGT9Z1xlFQ.woff2-35 into controller 
+2024-03-29 11:47:12,640 INFO o.a.j.p.h.p.ProxyControl: Add sample /s/poppins/v21/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2-36 into controller 
+2024-03-29 11:47:12,640 INFO o.a.j.p.h.p.ProxyControl: Add sample /s/poppins/v21/pxiEyp8kv8JHgFVrJJfecg.woff2-37 into controller 
+2024-03-29 11:47:13,046 INFO o.a.j.p.h.p.ProxyControl: Add sample /ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2-38 into controller 
+2024-03-29 11:47:13,854 INFO o.a.j.p.h.p.ProxyControl: Add sample /favicon.jpeg-39 into controller 
+2024-03-29 11:47:15,346 INFO o.a.j.p.h.p.Proxy: [53765]  KeyStore for SSL loaded OK and put host 'content-autofill.googleapis.com' in map with key (content-autofill.googleapis.com)
+2024-03-29 11:47:15,978 INFO o.a.j.p.h.p.ProxyControl: Add sample /v1/pages/ChRDaHJvbWUvMTIzLjAuNjMxMi41ORIgCVjv7thX5f5VEgUNg6hbPRIFDc5BTHohVESlu6mTxYUYs6nKAQ==-40 into controller 
+2024-03-29 11:47:17,272 INFO o.a.j.p.h.p.ProxyControl: [53783]  Creating entry storeedgefd.dsx.mp.microsoft.com in D:\jmeter\apache-jmeter-5.5\bin\proxyserver.jks
+2024-03-29 11:47:20,672 INFO o.a.j.p.h.p.ProxyControl: [53784]  Creating entry api-tdr.customscloud.co in D:\jmeter\apache-jmeter-5.5\bin\proxyserver.jks
+2024-03-29 11:47:20,816 INFO o.a.j.p.h.p.Proxy: [53783]  KeyStore for SSL loaded OK and put host 'storeedgefd.dsx.mp.microsoft.com' in map with key (storeedgefd.dsx.mp.microsoft.com)
+2024-03-29 11:47:20,882 WARN o.a.j.p.h.p.Proxy: [53783]  Empty response to http over SSL. Probably waiting for user to authorize the certificate for storeedgefd.dsx.mp.microsoft.com:443
+2024-03-29 11:47:23,749 INFO o.a.j.p.h.p.ProxyControl: [53785]  Creating entry activity.windows.com in D:\jmeter\apache-jmeter-5.5\bin\proxyserver.jks
+2024-03-29 11:47:23,899 INFO o.a.j.p.h.p.Proxy: [53784]  KeyStore for SSL loaded OK and put host 'api-tdr.customscloud.co' in map with key (api-tdr.customscloud.co)
+2024-03-29 11:47:25,157 INFO o.a.j.p.h.p.ProxyControl: Add sample /api/login-41 into controller 
+2024-03-29 11:47:26,848 INFO o.a.j.p.h.p.Proxy: [53785]  KeyStore for SSL loaded OK and put host 'activity.windows.com' in map with key (activity.windows.com)
+2024-03-29 11:47:27,332 INFO o.a.j.p.h.p.ProxyControl: [53790]  Creating entry idp-tdr.customscloud.co in D:\jmeter\apache-jmeter-5.5\bin\proxyserver.jks
+2024-03-29 11:47:27,459 INFO o.a.j.p.h.p.ProxyControl: Add sample /api/login-42 into controller 
+2024-03-29 11:47:28,526 INFO o.a.j.p.h.p.ProxyControl: Add sample /v3/feeds/me/$batch-43 into controller 
+2024-03-29 11:47:30,398 INFO o.a.j.p.h.p.Proxy: [53790]  KeyStore for SSL loaded OK and put host 'idp-tdr.customscloud.co' in map with key (idp-tdr.customscloud.co)
+2024-03-29 11:47:30,413 INFO o.a.j.p.h.p.ProxyControl: Add sample /v3/feeds/me/views/cf9bd941-97fb-ec42-a50a-9d962ed2f17d/activities-44 into controller 
+2024-03-29 11:47:31,015 ERROR o.a.j.p.h.p.Proxy: [53794]  Not implemented (probably used https)
+java.lang.IllegalArgumentException: Only ASCII supported in headers (perhaps SSL was used?)
+	at org.apache.jmeter.protocol.http.proxy.HttpRequestHdr.parse(HttpRequestHdr.java:161) ~[ApacheJMeter_http.jar:5.5]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:214) ~[ApacheJMeter_http.jar:5.5]
+2024-03-29 11:47:31,475 INFO o.a.j.p.h.p.ProxyControl: Add sample /api/login-45 into controller 
+2024-03-29 11:47:32,730 INFO o.a.j.p.h.p.ProxyControl: Add sample /api/login-46 into controller 
+2024-03-29 11:47:33,965 INFO o.a.j.p.h.p.ProxyControl: Add sample /api/dashboard_counts-47 into controller 
+2024-03-29 11:47:35,206 INFO o.a.j.p.h.p.ProxyControl: Add sample /api/dashboard_counts-48 into controller 
+2024-03-29 11:47:57,165 INFO o.a.j.p.h.p.Proxy: [53801]  KeyStore for SSL loaded OK and put host 'edge.microsoft.com' in map with key (edge.microsoft.com)
+2024-03-29 11:47:58,428 INFO o.a.j.p.h.p.ProxyControl: Add sample /sync/v1/feeds/me/syncEntities/command/?client=Chromium&client_id=cfbfqFNsvMouJZhIaG%2Fqvw%3D%3D-49 into controller 
+2024-03-29 11:48:01,515 INFO o.a.j.p.h.p.ProxyControl: Add sample /service/update2/json?cup2key=14:RC-6-SNxBNoUMP21_RPDOs98y8xUV-dKtydjemeRNzY&cup2hreq=ef22e201b736e4525925e0ed59aec6c0cd4ef2217e8c7e42fc223faafa819a34-50 into controller 
+2024-03-29 11:48:06,730 WARN o.a.j.p.h.p.Proxy: [53748]  Empty response to http over SSL. Probably waiting for user to authorize the certificate for www.google.com:443
+2024-03-29 11:48:16,965 INFO o.a.j.p.h.p.ProxyControl: Add sample /v1:GetHints?-51 into controller 
+2024-03-29 11:48:17,177 INFO o.a.j.p.h.p.ProxyControl: Add sample /v1/pages/ChRDaHJvbWUvMTIzLjAuNjMxMi41ORIZCVRjJ26XcgPJEgUNkWGVTiEluY1T9wulShizqcoB-55 into controller 
+2024-03-29 11:48:17,580 INFO o.a.j.p.h.p.ProxyControl: Add sample /api/getccrcds/93/import/all/15/desc/id?page=1-52 into controller 
+2024-03-29 11:48:17,582 INFO o.a.j.p.h.p.ProxyControl: Add sample /img/fa-search.a8881a9a.svg-54 into controller 
+2024-03-29 11:48:19,702 INFO o.a.j.p.h.p.ProxyControl: Add sample /api/getccrcds/93/import/all/15/desc/id-56 into controller 
+2024-03-29 11:48:20,147 ERROR o.a.j.p.h.p.Proxy: [53830]  Not implemented (probably used https)
+java.lang.IllegalArgumentException: Only ASCII supported in headers (perhaps SSL was used?)
+	at org.apache.jmeter.protocol.http.proxy.HttpRequestHdr.parse(HttpRequestHdr.java:161) ~[ApacheJMeter_http.jar:5.5]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:214) ~[ApacheJMeter_http.jar:5.5]
+2024-03-29 11:48:20,150 WARN o.a.j.p.h.p.Proxy: [53830]  Exception while writing error
+java.net.SocketException: An established connection was aborted by the software in your host machine
+	at sun.nio.ch.SocketDispatcher.write0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:54) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.tryWrite(NioSocketImpl.java:394) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:410) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:440) ~[?:?]
+	at sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:819) ~[?:?]
+	at java.net.Socket$SocketOutputStream.write(Socket.java:1195) ~[?:?]
+	at sun.security.ssl.SSLSocketOutputRecord.deliver(SSLSocketOutputRecord.java:345) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl$AppOutputStream.write(SSLSocketImpl.java:1304) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl$AppOutputStream.write(SSLSocketImpl.java:1263) ~[?:?]
+	at java.io.DataOutputStream.writeBytes(DataOutputStream.java:277) ~[?:?]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.writeErrorToClient(Proxy.java:592) ~[ApacheJMeter_http.jar:5.5]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:268) ~[ApacheJMeter_http.jar:5.5]
+2024-03-29 11:48:20,330 INFO o.a.j.p.h.p.ProxyControl: Add sample /v1/pages/ChRDaHJvbWUvMTIzLjAuNjMxMi41ORInCdJTSH8DXkcIEgUNkWGVThIFDZFhlU4SBQ2RYZVOIbTx-9zy4ZBMGLOpygE=-62 into controller 
+2024-03-29 11:48:20,544 INFO o.a.j.p.h.p.ProxyControl: Add sample /img/temp-form-doc-pic.3d67a5c0.svg-59 into controller 
+2024-03-29 11:48:20,549 INFO o.a.j.p.h.p.ProxyControl: Add sample /img/setting-outlined.d166888b.svg-58 into controller 
+2024-03-29 11:48:20,549 INFO o.a.j.p.h.p.ProxyControl: Add sample /img/expofilter.f76071b9.svg-60 into controller 
+2024-03-29 11:48:20,549 INFO o.a.j.p.h.p.ProxyControl: Add sample /img/actions-menu-cover-grey.165424f9.svg-61 into controller 
+2024-03-29 11:48:20,746 INFO o.a.j.p.h.p.ProxyControl: Add sample /api/import_listing/93-57 into controller 
+2024-03-29 11:48:20,748 INFO o.a.j.p.h.p.ProxyControl: Add sample /js/notification.js-53 into controller 
+2024-03-29 11:48:23,871 INFO o.a.j.p.h.p.ProxyControl: Add sample /api/import_listing/93-63 into controller 
+2024-03-29 11:48:30,096 INFO o.a.j.p.h.p.ProxyControl: Add sample /v1:GetHints?-64 into controller 
+2024-03-29 11:48:30,299 INFO o.a.j.p.h.p.ProxyControl: Add sample /v1/pages/ChRDaHJvbWUvMTIzLjAuNjMxMi41ORKHAgkrsJ1DbmgJzhIFDbJEiE8SBQ2u9NrQEgUNk-0vxRIFDUsK9uESBQ1kpFSrEgUNrLSLwhIFDdNqnDESBQ0MPTfeEgUNepurCxIFDRLfSL0SBQ0umYk1EgUNcHIYvBIFDfB5YYQSBQ1mEzCoEgUNnf9UqRIFDagwH9QSBQ0QsBIgEgUNTNGfGBIFDdOfTjISBQ2jgcasEgUNa4k5LhIFDei_7PQSBQ0N0DGdEgUNBdX3hhIFDfBfHtwSBQ26q83qEgUNOVnkBRIFDcP5zrASBQ0OPGC_EgUN6wrnTBIFDdGOfCMSBQ2o7TBDEgUNJ681TBIFDbi5cGASBQ08HhLgIT0pXuDSViNqGLOpygE=-69 into controller 
+2024-03-29 11:48:30,507 INFO o.a.j.p.h.p.ProxyControl: Add sample /img/green-fill-pic.0b6dc033.svg-67 into controller 
+2024-03-29 11:48:30,507 INFO o.a.j.p.h.p.ProxyControl: Add sample /img/label-after-bg.1895cf8e.svg-68 into controller 
+2024-03-29 11:48:30,507 INFO o.a.j.p.h.p.ProxyControl: Add sample /api/documentCount-65 into controller 
+2024-03-29 11:48:30,713 INFO o.a.j.p.h.p.ProxyControl: Add sample /api/ccr_cds/3613-66 into controller 
+2024-03-29 11:48:31,348 INFO o.a.j.p.h.p.ProxyControl: Add sample /img/arrow-down.aaf35cd4.svg-70 into controller 
+2024-03-29 11:48:31,558 INFO o.a.j.p.h.p.ProxyControl: Add sample /api/documentCount-71 into controller 
+2024-03-29 11:48:31,989 INFO o.a.j.p.h.p.ProxyControl: Add sample /api/ccr_cds/3613-72 into controller 
+2024-03-29 11:48:32,843 INFO o.a.j.p.h.p.ProxyControl: Add sample /v1/pages/ChRDaHJvbWUvMTIzLjAuNjMxMi41ORKvAwnI_ULecHvmHRIFDbJEiE8SBQ2u9NrQEgUNk-0vxRIFDUsK9uESBQ1kpFSrEgUNrLSLwhIFDZFhlU4SBQ3xlhOyEgUNkILdZhIFDdNqnDESBQ0MPTfeEgUNepurCxIFDRLfSL0SBQ2HO9mQEgUNQz6YzRIFDdmsUNUSBQ0Xi0GIEgUNYISLxBIFDXv6DB4SBQ0umYk1EgUNcHIYvBIFDfB5YYQSBQ1mEzCoEgUNnf9UqRIFDagwH9QSBQ0QsBIgEgUNTNGfGBIFDdOfTjISBQ2jgcasEgUNa4k5LhIFDei_7PQSBQ0N0DGdEgUNRGjaphIFDQXV94YSBQ2kUn70EgUNFOMaKxIFDasc4AcSBQ3u-8RKEgUNcLPK1BIFDcEsh-0SBQ048eRHEgUNxIcdjxIFDVF-OdsSBQ3wXx7cEgUNsGr7gRIFDbqrzeoSBQ05WeQFEgUNw_nOsBIFDQ48YL8SBQ3rCudMEgUN0Y58IxIFDajtMEMSBQ0nrzVMEgUNPV5B9hIFDaU8Hv4SBQ3hp6Q7EgUNRBmjPxIFDbi5cGASBQ08HhLgIUY8TnKcTIIuGLOpygE=-74 into controller 
+2024-03-29 11:48:33,046 INFO o.a.j.p.h.p.ProxyControl: Add sample /api/get-deferment-accounts/2406-73 into controller 
+2024-03-29 11:48:36,945 INFO o.a.j.p.h.p.ProxyControl: Add sample /api/get-deferment-accounts/2406-75 into controller 
+2024-03-29 11:48:44,413 INFO o.a.j.p.h.p.ProxyControl: Add sample /api/update_general-76 into controller 
+2024-03-29 11:48:44,414 INFO o.a.j.p.h.p.ProxyControl: Add sample /api/ItemaCount/3613-77 into controller 
+2024-03-29 11:48:45,653 INFO o.a.j.p.h.p.ProxyControl: Add sample /api/ItemaCount/3613-79 into controller 
+2024-03-29 11:48:45,861 INFO o.a.j.p.h.p.ProxyControl: Add sample /api/update_general-78 into controller 
+2024-03-29 11:48:47,307 INFO o.a.j.p.h.p.ProxyControl: Add sample /js/itemListing.js-82 into controller 
+2024-03-29 11:48:47,307 INFO o.a.j.p.h.p.ProxyControl: Add sample /js/src_components_ncts_departure_items_edit_vue.js-81 into controller 
+2024-03-29 11:48:47,307 INFO o.a.j.p.h.p.ProxyControl: Add sample /js/src_mixins_departure_js-src_components_ncts_departure_general_addDepartureModal_vue.js-80 into controller 
+2024-03-29 11:48:48,545 INFO o.a.j.p.h.p.ProxyControl: Add sample /api/getItem/3613/15?page=1-83 into controller 
+2024-03-29 11:48:50,002 INFO o.a.j.p.h.p.ProxyControl: Add sample /api/getItem/3613/15-84 into controller 
+2024-03-29 11:48:50,828 INFO o.a.j.p.h.p.ProxyControl: Add sample /img/delete.5a3004c3.svg-86 into controller 
+2024-03-29 11:48:50,830 INFO o.a.j.p.h.p.ProxyControl: Add sample /img/actions-edit_cover.c802ff6b.svg-85 into controller 
+2024-03-29 11:48:52,127 INFO o.a.j.p.h.p.ProxyControl: Add sample /v1:GetHints?-87 into controller 
+2024-03-29 11:48:52,343 INFO o.a.j.p.h.p.ProxyControl: Add sample /v1/pages/ChRDaHJvbWUvMTIzLjAuNjMxMi41ORK6AQm4SL6UMWcfuhIFDWQdV5wSBQ0vbby8EgUNIHfIuhIFDfBfHtwSBQ0RKnB9EgUN9GbY6RIFDTDe9swSBQ3MyDrxEgUNNBXpnhIFDZnlflMSBQ1Ls3dVEgUNhrmU7hIFDYEfqEYSBQ1PoOHsEgUNbrHLHBIFDUZiyf4SBQ1CId7dEgUN8ZYTshIFDdNqnDESBQ0MPTfeEgUNXFcayhIFDWpWfI4SBQ0umYk1EgUNcHIYvCGK3cIX2hyidRizqcoB-89 into controller 
+2024-03-29 11:48:52,748 INFO o.a.j.p.h.p.ProxyControl: Add sample /api/edititem/29854-88 into controller 
+2024-03-29 11:48:53,999 INFO o.a.j.p.h.p.ProxyControl: Add sample /api/edititem/29854-90 into controller 
+2024-03-29 11:48:55,031 INFO o.a.j.p.h.p.ProxyControl: Add sample /v1/pages/ChRDaHJvbWUvMTIzLjAuNjMxMi41ORKmBAmViqKIq8V_WxIFDWQdV5wSBQ0vbby8EgUN45MhTBIFDXbpqyESBQ0gd8i6EgUN_KDiJRIFDaKi9IcSBQ3UDgJhEgUN8F8e3BIFDREqcH0SBQ30ZtjpEgUNMN72zBIFDWvB0OISBQ3MyDrxEgUNCMomgxIFDTQV6Z4SBQ2Z5X5TEgUNS7N3VRIFDYa5lO4SBQ2BH6hGEgUNT6Dh7BIFDW6xyxwSBQ2kUn70EgUNd2E4ZhIFDasc4AcSBQ2CpyLFEgUNh34UVBIFDUZiyf4SBQ1CId7dEgUNHCqNcRIFDY1hHloSBQ1HrlXCEgUNIiIwPhIFDWasZ3QSBQ0VPVS9EgUNsertRxIFDdb0W9QSBQ0hX9usEgUNQMxp8BIFDQCu0wwSBQ1a-dHMEgUNZwpRGBIFDVYkIekSBQ3IvIJHEgUNaiWH6xIFDV0YbVASBQ2ZS3O1EgUNUpdzXxIFDVgxNqISBQ2R1ddLEgUNV6alHBIFDfwdvzYSBQ06wjk5EgUNszGNeBIFDVBuS7QSBQ0Vjr4hEgUNeFQA2hIFDb5AkgoSBQ1PWTSGEgUNmvZNzRIFDb3v_wsSBQ11KSFSEgUNUX452xIFDcSHHY8SBQ3xlhOyEgUN02qcMRIFDQw9N94SBQ09XkH2EgUNpTwe_hIFDWCEi8QSBQ17-gweEgUNXFcayhIFDWpWfI4SBQ0umYk1EgUNcHIYvBIFDUDcbkMhRzw2sNSa4EQYs6nKAQ==-91 into controller 
+2024-03-29 11:49:06,643 INFO o.a.j.p.h.p.ProxyControl: Add sample /api/updateItem-92 into controller 
+2024-03-29 11:49:06,789 WARN o.a.j.p.h.p.Proxy: [53805]  Empty response to http over SSL. Probably waiting for user to authorize the certificate for www.google.com:443
+2024-03-29 11:49:08,483 INFO o.a.j.p.h.p.ProxyControl: Add sample /api/updateItem-93 into controller 
+2024-03-29 11:49:09,099 INFO o.a.j.p.h.p.ProxyControl: Add sample /v1/pages/ChRDaHJvbWUvMTIzLjAuNjMxMi41ORKHAgkrsJ1DbmgJzhIFDbJEiE8SBQ2u9NrQEgUNk-0vxRIFDUsK9uESBQ1kpFSrEgUNrLSLwhIFDdNqnDESBQ0MPTfeEgUNepurCxIFDRLfSL0SBQ0umYk1EgUNcHIYvBIFDfB5YYQSBQ1mEzCoEgUNnf9UqRIFDagwH9QSBQ0QsBIgEgUNTNGfGBIFDdOfTjISBQ2jgcasEgUNa4k5LhIFDei_7PQSBQ0N0DGdEgUNBdX3hhIFDfBfHtwSBQ26q83qEgUNOVnkBRIFDcP5zrASBQ0OPGC_EgUN6wrnTBIFDdGOfCMSBQ2o7TBDEgUNJ681TBIFDbi5cGASBQ08HhLgIT0pXuDSViNqEhkJVGMnbpdyA8kSBQ2RYZVOISHiWFf9POEPGLOpygE=-98 into controller 
+2024-03-29 11:49:09,711 INFO o.a.j.p.h.p.ProxyControl: Add sample /api/documentCount-94 into controller 
+2024-03-29 11:49:09,715 INFO o.a.j.p.h.p.ProxyControl: Add sample /api/ItemaCount/3613-95 into controller 
+2024-03-29 11:49:09,716 INFO o.a.j.p.h.p.ProxyControl: Add sample /api/ccr_cds/3613-97 into controller 
+2024-03-29 11:49:09,716 INFO o.a.j.p.h.p.ProxyControl: Add sample /api/getItem/3613/15?page=1-96 into controller 
+2024-03-29 11:49:10,744 INFO o.a.j.p.h.p.ProxyControl: Add sample /api/documentCount-99 into controller 
+2024-03-29 11:49:10,757 INFO o.a.j.p.h.p.ProxyControl: Add sample /api/ItemaCount/3613-100 into controller 
+2024-03-29 11:49:10,757 INFO o.a.j.p.h.p.ProxyControl: Add sample /api/ccr_cds/3613-101 into controller 
+2024-03-29 11:49:11,381 INFO o.a.j.p.h.p.ProxyControl: Add sample /api/getItem/3613/15-102 into controller 
+2024-03-29 11:49:11,788 INFO o.a.j.p.h.p.ProxyControl: Add sample /api/get-deferment-accounts/2406-103 into controller 
+2024-03-29 11:49:14,458 INFO o.a.j.p.h.p.ProxyControl: Add sample /v1/pages/ChRDaHJvbWUvMTIzLjAuNjMxMi41ORIuCf6ytieJvR10EgUNkWGVThIFDZFhlU4SBQ2UkJL6EgUNBu27_yHfszdFqT247BizqcoB-105 into controller 
+2024-03-29 11:49:15,888 INFO o.a.j.p.h.p.ProxyControl: Add sample /api/get-deferment-accounts/2406-104 into controller 
+2024-03-29 11:49:17,545 INFO o.a.j.p.h.p.ProxyControl: Add sample /api/getccrcds/93/import/all/15/desc/id?page=1-106 into controller 
+2024-03-29 11:49:17,762 INFO o.a.j.p.h.p.ProxyControl: Add sample /api/getccrcds/93/import/all/15/desc/id?page=1-107 into controller 
+2024-03-29 11:49:21,791 INFO o.a.j.p.h.p.ProxyControl: Add sample /api/getccrcds/93/import/all/15/desc/id-108 into controller 
+2024-03-29 11:49:23,043 INFO o.a.j.p.h.p.ProxyControl: Add sample /api/import_listing/93-110 into controller 
+2024-03-29 11:49:24,290 INFO o.a.j.p.h.p.ProxyControl: Add sample /api/getccrcds/93/import/all/15/desc/id-109 into controller 
+2024-03-29 11:49:25,755 INFO o.a.j.p.h.p.ProxyControl: Add sample /api/import_listing/93-111 into controller 
+2024-03-29 11:49:27,617 INFO o.a.j.p.h.p.ProxyControl: Add sample /v1:GetHints?-112 into controller 
+2024-03-29 11:49:28,029 INFO o.a.j.p.h.p.ProxyControl: Add sample /v1/pages/ChRDaHJvbWUvMTIzLjAuNjMxMi41ORKjAgmSK5kp_poihhIFDbJEiE8SBQ2u9NrQEgUNk-0vxRIFDUsK9uESBQ1kpFSrEgUNrLSLwhIFDZFhlU4SBQ3xlhOyEgUNkILdZhIFDdNqnDESBQ0MPTfeEgUNepurCxIFDRLfSL0SBQ0umYk1EgUNcHIYvBIFDfB5YYQSBQ1mEzCoEgUNnf9UqRIFDagwH9QSBQ0QsBIgEgUNTNGfGBIFDdOfTjISBQ2jgcasEgUNa4k5LhIFDei_7PQSBQ0N0DGdEgUNRGjaphIFDQXV94YSBQ3wXx7cEgUNuqvN6hIFDTlZ5AUSBQ3D-c6wEgUNDjxgvxIFDesK50wSBQ3RjnwjEgUNqO0wQxIFDSevNUwSBQ24uXBgEgUNPB4S4CGEwIXANRN06hizqcoB-115 into controller 
+2024-03-29 11:49:28,242 INFO o.a.j.p.h.p.ProxyControl: Add sample /api/general-114 into controller 
+2024-03-29 11:49:28,242 INFO o.a.j.p.h.p.ProxyControl: Add sample /api/documentCount-113 into controller 
+2024-03-29 11:49:29,474 INFO o.a.j.p.h.p.ProxyControl: Add sample /api/documentCount-117 into controller 
+2024-03-29 11:49:29,474 INFO o.a.j.p.h.p.ProxyControl: Add sample /api/general-116 into controller 
+2024-03-29 11:49:30,711 INFO o.a.j.p.h.p.ProxyControl: Add sample /api/ccr_cds/3616-118 into controller 
+2024-03-29 11:49:31,548 INFO o.a.j.p.h.p.ProxyControl: Add sample /api/draft-120 into controller 
+2024-03-29 11:49:31,755 INFO o.a.j.p.h.p.ProxyControl: Add sample /api/ItemaCount/3616-121 into controller 
+2024-03-29 11:49:32,168 INFO o.a.j.p.h.p.ProxyControl: Add sample /api/ccr_cds/3616-119 into controller 
+2024-03-29 11:49:32,800 INFO o.a.j.p.h.p.ProxyControl: Add sample /v1/pages/ChRDaHJvbWUvMTIzLjAuNjMxMi41ORKFAwn0QAZ9gIDkBBIFDbJEiE8SBQ2u9NrQEgUNk-0vxRIFDUsK9uESBQ1kpFSrEgUNrLSLwhIFDZFhlU4SBQ3xlhOyEgUNkILdZhIFDdNqnDESBQ0MPTfeEgUNepurCxIFDRLfSL0SBQ2HO9mQEgUNQz6YzRIFDWCEi8QSBQ17-gweEgUNLpmJNRIFDXByGLwSBQ3weWGEEgUNZhMwqBIFDZ3_VKkSBQ2oMB_UEgUNELASIBIFDUzRnxgSBQ3Tn04yEgUNo4HGrBIFDWuJOS4SBQ3ov-z0EgUNDdAxnRIFDURo2qYSBQ0F1feGEgUNcesjyhIFDRTjGisSBQ2rHOAHEgUNOPHkRxIFDcSHHY8SBQ1RfjnbEgUN8F8e3BIFDbqrzeoSBQ05WeQFEgUNw_nOsBIFDQ48YL8SBQ3rCudMEgUN0Y58IxIFDajtMEMSBQ0nrzVMEgUNPV5B9hIFDaU8Hv4SBQ3hp6Q7EgUNRBmjPxIFDbi5cGASBQ08HhLgIWZzIJMo8yFDGLOpygE=-125 into controller 
+2024-03-29 11:49:32,801 INFO o.a.j.p.h.p.ProxyControl: Add sample /api/draft-122 into controller 
+2024-03-29 11:49:32,801 INFO o.a.j.p.h.p.ProxyControl: Add sample /api/ItemaCount/3616-123 into controller 
+2024-03-29 11:49:33,210 INFO o.a.j.p.h.p.ProxyControl: Add sample /api/get-deferment-accounts/null-124 into controller 
+2024-03-29 11:49:33,631 INFO o.a.j.p.h.p.ProxyControl: Add sample /v1/pages/ChRDaHJvbWUvMTIzLjAuNjMxMi41ORKaAwkUpJzr95eDJBIFDWQdV5wSBQ0vbby8EgUN45MhTBIFDXbpqyESBQ0gd8i6EgUN_KDiJRIFDaKi9IcSBQ3UDgJhEgUN8F8e3BIFDREqcH0SBQ30ZtjpEgUNMN72zBIFDczIOvESBQ0IyiaDEgUNNBXpnhIFDZnlflMSBQ1Ls3dVEgUNhrmU7hIFDYEfqEYSBQ1PoOHsEgUNbrHLHBIFDaRSfvQSBQ13YThmEgUNqxzgBxIFDeTzb1MSBQ2CLMaEEgUNRmLJ_hIFDUIh3t0SBQ0cKo1xEgUNjWEeWhIFDUeuVcISBQ0iIjA-EgUNZqxndBIFDRU9VL0SBQ2x6u1HEgUNyLyCRxIFDWolh-sSBQ1dGG1QEgUNmUtztRIFDVKXc18SBQ1YMTaiEgUNOPHkRxIFDVF-OdsSBQ3Ehx2PEgUN8ZYTshIFDdNqnDESBQ0MPTfeEgUNPV5B9hIFDaU8Hv4SBQ1ghIvEEgUNe_oMHhIFDVxXGsoSBQ1qVnyOEgUNLpmJNRIFDXByGLwSBQ1EaNqmIYyBIpQ7XwBWGLOpygE=-127 into controller 
+2024-03-29 11:49:34,456 INFO o.a.j.p.h.p.ProxyControl: Add sample /api/get-deferment-accounts/null-126 into controller 
+2024-03-29 11:49:46,782 ERROR o.a.j.p.h.p.Proxy: [53962]  Not implemented (probably used https)
+java.lang.IllegalArgumentException: Only ASCII supported in headers (perhaps SSL was used?)
+	at org.apache.jmeter.protocol.http.proxy.HttpRequestHdr.parse(HttpRequestHdr.java:161) ~[ApacheJMeter_http.jar:5.5]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:214) ~[ApacheJMeter_http.jar:5.5]
+2024-03-29 11:49:46,794 WARN o.a.j.p.h.p.Proxy: [53962]  Exception while writing error
+java.net.SocketException: An established connection was aborted by the software in your host machine
+	at sun.nio.ch.SocketDispatcher.write0(Native Method) ~[?:?]
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:54) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.tryWrite(NioSocketImpl.java:394) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:410) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:440) ~[?:?]
+	at sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:819) ~[?:?]
+	at java.net.Socket$SocketOutputStream.write(Socket.java:1195) ~[?:?]
+	at sun.security.ssl.SSLSocketOutputRecord.deliver(SSLSocketOutputRecord.java:345) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl$AppOutputStream.write(SSLSocketImpl.java:1304) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl$AppOutputStream.write(SSLSocketImpl.java:1263) ~[?:?]
+	at java.io.DataOutputStream.writeBytes(DataOutputStream.java:277) ~[?:?]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.writeErrorToClient(Proxy.java:592) ~[ApacheJMeter_http.jar:5.5]
+	at org.apache.jmeter.protocol.http.proxy.Proxy.run(Proxy.java:268) ~[ApacheJMeter_http.jar:5.5]
+2024-03-29 11:49:53,987 INFO o.a.j.p.h.p.ProxyControl: Add sample /api/storeItem-128 into controller 
+2024-03-29 11:49:55,248 INFO o.a.j.p.h.p.ProxyControl: Add sample /api/storeItem-129 into controller 
+2024-03-29 11:49:56,286 INFO o.a.j.p.h.p.ProxyControl: Add sample /api/getItem/3616/15?page=1-130 into controller 
+2024-03-29 11:49:57,571 INFO o.a.j.p.h.p.ProxyControl: Add sample /api/getItem/3616/15-131 into controller 
+2024-03-29 11:49:58,192 INFO o.a.j.p.h.p.ProxyControl: [53975]  Creating entry safebrowsing.googleapis.com in D:\jmeter\apache-jmeter-5.5\bin\proxyserver.jks
+2024-03-29 11:49:58,205 INFO o.a.j.p.h.p.ProxyControl: Add sample /api/draft-132 into controller 
+2024-03-29 11:49:59,458 INFO o.a.j.p.h.p.ProxyControl: Add sample /api/draft-133 into controller 
+2024-03-29 11:50:00,719 INFO o.a.j.p.h.p.ProxyControl: Add sample /api/getccrcds/93/import/all/15/desc/id?page=1-134 into controller 
+2024-03-29 11:50:02,570 INFO o.a.j.p.h.p.Proxy: [53975]  KeyStore for SSL loaded OK and put host 'safebrowsing.googleapis.com' in map with key (safebrowsing.googleapis.com)
+2024-03-29 11:50:03,553 INFO o.a.j.p.h.p.Daemon: HTTP(S) Test Script Recorder stopped
+2024-03-29 11:50:06,839 WARN o.a.j.p.h.p.Proxy: [53893]  Empty response to http over SSL. Probably waiting for user to authorize the certificate for www.google.com:443
+2024-03-29 11:51:47,596 WARN o.a.j.p.h.p.Proxy: [53680]  Empty response to http over SSL. Probably waiting for user to authorize the certificate for config.edge.skype.com:443
+2024-03-29 11:52:20,084 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2024-03-29 11:52:20,084 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-03-29 11:52:20,099 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2024-03-29 11:52:20,171 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2024-03-29 11:52:20,171 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2024-03-29 11:52:20,171 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-03-29 11:52:20,171 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2024-03-29 11:52:20,171 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2024-03-29 11:52:20,171 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2024-03-29 11:52:20,178 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2024-03-29 11:52:20,184 INFO o.a.j.s.FileServer: Stored: C:/Users/CYBO-Ahmad-SQA/Desktop/icustomsusers.csv
+2024-03-29 11:52:21,228 INFO o.a.j.p.h.p.BaseParser: Created org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-03-29 11:52:21,260 INFO o.a.j.t.JMeterThread: Thread started: parallel bzm - Parallel Controller
+2024-03-29 11:52:33,127 INFO o.a.j.t.JMeterThread: Thread is done: org.apache.jmeter.threads.JMeterThread@4de70714 - bzm - Parallel Controller - /app.0a1a5c2e50bc6355.js-83
+2024-03-29 11:52:33,127 INFO o.a.j.t.JMeterThread: Thread finished: org.apache.jmeter.threads.JMeterThread@4de70714 - bzm - Parallel Controller - /app.0a1a5c2e50bc6355.js-83
+2024-03-29 11:53:18,048 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2024-03-29 11:53:18,048 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2024-03-29 11:53:18,053 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2024-03-29 11:53:18,053 INFO o.a.j.s.FileServer: Close: C:/Users/CYBO-Ahmad-SQA/Desktop/icustomsusers.csv
+2024-03-29 11:53:18,057 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2024-03-29 12:10:51,794 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2024-03-29 12:10:51,794 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-03-29 12:10:51,794 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2024-03-29 12:10:51,856 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2024-03-29 12:10:51,856 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2024-03-29 12:10:51,856 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-03-29 12:10:51,856 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2024-03-29 12:10:51,856 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2024-03-29 12:10:51,856 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2024-03-29 12:10:51,856 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2024-03-29 12:10:51,856 INFO o.a.j.s.FileServer: Stored: C:/Users/CYBO-Ahmad-SQA/Desktop/icustomsusers.csv
+2024-03-29 12:10:53,403 INFO o.a.j.t.JMeterThread: Thread started: parallel bzm - Parallel Controller
+2024-03-29 12:11:05,880 INFO o.a.j.t.JMeterThread: Thread is done: org.apache.jmeter.threads.JMeterThread@674e8d1d - bzm - Parallel Controller - /app.0a1a5c2e50bc6355.js-83
+2024-03-29 12:11:05,880 INFO o.a.j.t.JMeterThread: Thread finished: org.apache.jmeter.threads.JMeterThread@674e8d1d - bzm - Parallel Controller - /app.0a1a5c2e50bc6355.js-83
+2024-03-29 12:11:42,843 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2024-03-29 12:11:42,843 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2024-03-29 12:11:42,843 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2024-03-29 12:11:42,843 INFO o.a.j.s.FileServer: Close: C:/Users/CYBO-Ahmad-SQA/Desktop/icustomsusers.csv
+2024-03-29 12:11:42,843 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
